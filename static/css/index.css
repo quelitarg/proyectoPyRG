@@ -1,0 +1,481 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100.. 900&family=Roboto:ital,wght@0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900&family=Fuente+Sans+3:ital,wght@0,200..900; 1.200..900&display=swap');
+:root {
+    --bg-color: #181419;
+    --primary-color: #ed3e58;
+    --primary-bis-color:#e71212c9;
+    --secondary-color: #f5b555f0;
+    --third-color: #e8AB50;
+    --third-bis-color: #e76264f2;
+    --bg-input-color: #4f31572c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    color:#FFF;
+    font-size: 1.6vw;
+}
+
+/* HEADER */
+
+.grid-container {
+    max-width: 1300px;
+    display:grid;
+    background-color:var(--bg-color);
+    padding: 1px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+.header{
+    background-color: rgba(84, 84, 84, 0.5);
+    color:#FFF; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+   
+}
+
+.scrolled {
+    background-color: orange;
+}
+
+  /* width  */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--bg-input-color); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--third-color); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--third-bis-color); 
+  }
+  
+
+#logoNA {
+    width: 100 px;
+    height: 50px; 
+    margin:0px;
+    margin-top:5px;
+    margin-left: 0px;
+    border-radius: 10%;
+
+}
+a{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;   
+    padding: 0px 50px;
+
+    
+}
+
+.navbar{
+   
+    display: flex;
+    height: 70px;   
+    padding: 0px 30px 5px;
+    margin: 1px;
+    
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    list-style: none;
+    gap: auto;
+    height: 100vh;
+}
+
+.list_item {
+    display: flex;
+    margin-top: 1px;
+    padding: 2px 10px;
+    list-style:none;
+    justify-content: center;
+    
+    
+}
+.navbar_menu li:hover > ul {
+    display:block;
+}
+
+.list_item--click {
+    cursor: pointer;
+}
+
+.list_button {
+    display: flex;
+    border: 2px solid #5271FF;
+    border-radius: 6.5%;
+    gap: 1.7em;
+    align-items:center;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.list_button:hover {
+    background-color:var(--third-color);
+
+}
+
+.list_inside{
+    border-bottom: .1em solid var(--bg-color);
+    border-left: .1em solid var(--bg-color);
+    border-right: .1em solid var(--bg-color);
+    border-radius: 6.5%;
+    /*overflow: hidden;*/
+}
+
+.navbar_link {
+    display: flex;
+    font-size:medium;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 10px;
+    margin: 0.7px 0px 0.5px;
+    
+    
+}
+
+.navbar_link--inside{
+    background-color: rgb(63, 59, 63, 0.7);
+    border-bottom: .1em solid var(--bg-input-color);
+    border-left: .07em solid var(--bg-input-color);
+    border-right: .07em solid var(--bg-input-color);
+    /*border-radius: 6.5%;*/
+}
+
+.navbar_link--inside:hover {
+    background-color: white;
+    color: rgb(32, 30, 30);
+
+}
+
+.list_show {
+    display: none; 
+    position:absolute;
+    top:70%;
+    /*width:100%;*/
+    font-size:small;
+    list-style:none;
+    text-align: center;
+    
+}
+
+
+#hero {
+    background-image: url("/static/img/IMG-20240506-Leo.jpeg");
+    background-position:center;
+    background-size:cover;
+    /*background-attachment: fixed;*/
+    height: 500px;
+    padding: 0;
+    margin: 30px;
+   
+   
+}
+
+.container{
+    max-width: 1200px;
+    margin: 120px auto;
+    
+}
+
+.cont-pres{
+    display: flex;
+    justify-content:center;
+    align-items:first baseline;
+    flex-wrap: wrap;
+}
+
+.card-banner{
+    margin: 80px auto;
+    text-align: center;
+    padding: 0px 160px;
+}
+
+
+.card-banner h1{
+    color: orange;
+    font-size: 2vw;
+}
+.card-banner h2{
+    margin-bottom: 10px;
+}
+
+
+#grid-container-banns{
+    display: grid;
+    max-width: 1300px;
+    background-color:rgb(255, 255, 255);
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.item-bann-public{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.item-bann-public{
+    max-width: 1fr;
+    border-radius: 0;
+    box-shadow: 2px 2px 2x 2px rgba(0,0,0,0.5);
+    height:500px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-bann-public{
+    transition: transform 0.2s ease-in-out opacity 400ms;
+}
+
+.item-bann-public:hover{
+    transform: scale(1.005);
+    opacity: 0.7;
+    
+}
+
+.card{
+    color:transparent;
+    font-size:larger;
+    font-weight: 100;
+}
+
+.card{
+    display:flex;
+    text-decoration: none;
+    box-sizing: content-box;
+    max-width: 430px;
+    height: 500px;
+    opacity: 0;
+}
+
+#item1{
+    background-image: url("/static/img/Image111 20240506.jpg");
+    background-position:center;
+    background-size:cover;
+    
+}
+
+
+#item2{
+    background-image: url("/static/img/Image12 20240506.jpeg");
+    background-position:center;
+    background-size:cover;
+}
+
+#item3{
+    background-image: url("/static/img/Image13 20240506.jpeg");
+    background-position:center;
+    background-size:cover;
+}
+#item4{
+    background-image: url("/static/img/Image21 20240506.jpg");
+    background-position:center;
+    background-size:cover;
+}
+#item5{
+    background-image: url("/static/img/Image22 20240506.jpeg");
+    background-position:center;
+    background-size:cover;
+}
+#item6{
+    background-image: url("/static/img/Image23 20240506.jpg");
+    background-position:center;
+    background-size:cover;
+}
+#item7{
+    background-image: url("/static/img/Image31 20240506.jpeg");
+    background-position:center;
+    background-size:cover;
+}
+#item8{
+    background-image: url("/static/img/Image32 20240506.jpg");
+    background-position:center;
+    background-size:cover;
+}
+#item9{
+    background-image: url("/static/img/Image33 20240506.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+
+.footer_box {
+    background-color: var(--third-color);
+    display:grid;
+    grid-template-columns:1fr 180px 1fr;
+    height: 80px;
+    max-width: 1300px;    
+}
+
+#footer {
+text-align: center;
+
+}
+
+#titulo_footer{
+margin: 3px 0;
+}
+
+.it_footer{
+    margin-left: 10px;
+
+}
+
+footer > h3{
+    margin-top: 10px;
+}
+
+.link_title1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: .8rem;
+    font-weight:3.5px;
+    padding: 2px 25px;
+    color: white;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 400;
+}
+
+#logo-whatssap1{
+    width: 20px;
+    height: 20px;
+
+}
+
+#logo-mail1{
+    width: 20px;
+    height: 22px;
+}
+
+#logoFace{
+    width: 30px;
+    height: 30px;
+}
+#logoInst{
+    width: 30px;
+    height: 30px;
+}
+#logoYouTube{
+    width: 30px;
+    height: 30px;
+}
+.redes_sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-right: 20px;
+    column-gap: 15px;
+    margin-top: 10px;
+    
+
+}
+
+/*Medias Querys*/
+
+@media screen and (max-width: 650px){
+
+    #grid-container-banns{
+        display: grid;
+        background-color:var(--secondary-color);
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        align-content: center;
+        }
+}
+
+
+
+@media screen and (max-width: 650px){
+
+    
+    p {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        font-weight: 200;
+        font-size: .8rem;
+    }
+
+    .link_title1{
+        display: flex;
+        flex-direction: row;
+        
+        column-gap: 7px;
+        font-size: .7rem;
+        font-weight:3px;
+        padding: 2px 5px;
+        color: white;
+    }
+
+    #titulo_footer{
+        margin: 2px 0;
+        }
+        
+    .it_footer{
+            margin-left: 0px;
+        
+    }
+
+
+    .redes_sociales{
+        display: flex;
+        justify-content:flex-end;
+        column-gap: 7px;
+        margin-right: 20px;
+        margin-top: 10px;
+        
+    }
+
+}
+

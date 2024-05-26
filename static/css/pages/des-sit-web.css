@@ -1,0 +1,124 @@
+body {
+    background-color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+.texto_decor{
+    width:800px;
+    height:800px;
+    justify-content: flex-star;
+    align-items: center;
+    max-width: 1300px;
+    
+}
+
+.primer_texto{
+    margin-top: 80px;
+    color: var(--primary-color);
+    padding:7px;
+}
+    
+.segundo_texto{
+    color: var( --primary-bis-color);
+    padding:7px;
+    margin-bottom:10px;
+}
+ 
+
+.tercera_parte{
+    color: var( --primary-bis-color);
+    padding:7px;
+    margin-bottom:10px;
+}
+
+p{
+    font: size 1.4em;
+    padding: 10px;
+}
+
+h2 {
+color:var(--third-bis-color);
+}
+
+.videos{ 
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-content: space-around;
+    width: 1300px;
+
+}
+#logo-whatssap{
+    width: 20px;
+    height: 20px;
+
+}
+
+#logo-mail{
+    width: 20px;
+    height: 22px;
+}
+
+
+#logo-whatssap1{
+    width: 20px;
+    height: 20px;
+
+}
+
+#logo-mail1{
+    width: 20px;
+    height: 22px;
+}
+
+.link_title{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: 1.1rem;
+    font: weight 4.5px;
+
+}
+
+.header_title{
+    font-weight:bold;
+    margin-bottom: 10px;
+ }
+
+.footer_box {
+    background-color: var(--third-color);
+    display:grid;
+    grid-template-columns:1fr 180px 1fr;
+    height: 80px;
+    max-width: 1300px;    
+}
+
+#footer {
+text-align: center;
+
+}
+
+#titulo_footer{
+margin: 3px 0;
+}
+
+.it_footer{
+    margin-left: 10px;
+
+}
+
+footer > h3{
+    margin-top: 10px;
+}
+
+.link_title1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: .8rem;
+    font-weight:3.5px;
+    padding: 2px 25px;
+    color: white;
+}

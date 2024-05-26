@@ -1,0 +1,159 @@
+body{
+    background-color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.container_contact{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+padding: 30px;
+margin-top: 70px;
+max-width: 1300px;
+}
+
+.container_contact{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 3px;
+}
+
+.container_form{
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+}
+
+
+.contact_form {
+justify-content: start;
+
+}
+
+.form__boxes{
+    width: 70%;
+}
+
+.contact_header{
+    display: block;
+    justify-content: start;
+    align-items:start;
+    font-size: large;
+    text-decoration: none;   
+}
+
+#logo-whatssap{
+    width: 20px;
+    height: 20px;
+
+}
+
+#logo-mail{
+    width: 20px;
+    height: 22px;
+}
+
+.header_title{
+   font-weight:bold;
+   margin-bottom: 10px;
+}
+
+.link_title{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: 1.1rem;
+    font: weight 4.5px;
+
+}
+/*
+.contact_form{
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+
+.form__label{
+
+}
+
+.form__submission{
+
+}
+*/
+.form__input{
+width:500px;
+height: 35px;
+padding: 3px;
+
+}
+
+.form__select{
+width: 500px;
+height: 35px;
+}
+
+.text_area {
+width: 500px;
+height: 130px;
+}
+
+.form_button{
+    width: 500px;
+    height: 35px;
+    text-align: center;
+    background: var(--third-color);
+    color:white;
+}
+
+/*Medias Querys */ 
+
+@media screen and (max-width: 992px){
+    .container_contact{
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1300px;
+    }
+    
+    .container_form{
+        margin-top:10px;
+    } 
+  
+}
+
+@media screen and (max-width: 650px){
+
+    .form__input{
+        width:350px;
+        height: 25px;
+        padding: 3px;
+        
+        }
+        
+        .form__select{
+        width: 350px;
+        height: 25px;
+        }
+        
+        .text_area {
+        width: 350px;
+        height: 100px;
+        }
+        
+        .form_button{
+            width: 350px;
+            height: 25px;
+            text-align: center;
+            background-color: var(--third-color);
+            color:white;
+        }
+
+        .box_iframe{
+             width: 350px;
+             height: 400px;
+        }
+}
