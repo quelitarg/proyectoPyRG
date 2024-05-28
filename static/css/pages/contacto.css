@@ -153,7 +153,45 @@ height: 130px;
         }
 
         .box_iframe{
-             width: 350px;
+             width: 320px;
              height: 400px;
         }
+}
+
+@media screen and (max-width:580px) {
+    
+    #logoInst{
+        width:17px;
+        height: 17px;
+    }
+
+    #logoFace{
+        width:17px;
+        height:17px;
+    }
+    #logoYouTube{
+        width:17px;
+        height:17px;
+
+    }
+
+    p {
+        font-weight: 200;
+        font: size 0.8em; ;
+
+    }
+
+    #logo-whatssap {
+        width:15px ;
+        height: 15px;
+    }
+    #logo-mail {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .link_title{
+        font-weight: 4px;
+        font-size: 0.8rem;
+    }
 }

@@ -30,7 +30,7 @@ body {
 .tercera_parte{
     color: var( --primary-bis-color);
     padding:7px;
-    margin-bottom:10px;
+    margin:7px;
 }
 
 p{
@@ -121,4 +121,29 @@ footer > h3{
     font-weight:3.5px;
     padding: 2px 25px;
     color: white;
+}
+
+/* MediaQuerys */
+@media screen and (max-width:580px) {
+    
+    #logoInst{
+        width:17px;
+        height: 17px;
+    }
+
+    #logoFace{
+        width:17px;
+        height:17px;
+    }
+    #logoYouTube{
+        width:17px;
+        height:17px;
+
+    }
+
+    p {
+        font-weight: 200;
+        font: size 0.8em; ;
+
+    }
 }
