@@ -25,6 +25,7 @@ body{
     font-style: normal;
 }
 
+
 a{
     text-decoration: none;
 }
@@ -445,6 +446,7 @@ p {
         color:white;
         font-weight: 200;
         font-size: .8rem;
+        min-width: 400px;
     }
 
     .link_title1{
@@ -476,6 +478,15 @@ p {
         margin-top: 10px;
         
     }
+
+    @media screen and (min-width: 1500px){
+
+        .header{
+            position: relative;
+        }
+    }
+        
+    
 
 }
 
