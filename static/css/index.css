@@ -347,8 +347,8 @@ nav{
     background-color: var(--third-color);
     display:grid;
     grid-template-columns:1fr 180px 1fr;
-    height: 80px;
-    max-width: 1300px;    
+    height: 90px;
+    /*max-width: 1300px;  */  
 }
 
 #footer {
@@ -444,9 +444,9 @@ p {
         justify-content: center;
         align-items: center;
         color:white;
-        font-weight: 200;
-        font-size: .8rem;
-        min-width: 400px;
+        font-weight: 300;
+        font-size: .6rem;
+        
     }
 
     .link_title1{
@@ -465,7 +465,7 @@ p {
         }
         
     .it_footer{
-            margin-left: 0px;
+            margin-left: 5px;
         
     }
 
@@ -486,7 +486,20 @@ p {
         }
     }
         
-    
+    @media screen and (min-width:300px){
+        p {
+            display:flex;
+            justify-content: end;
+            align-items: end;
+            color:white;
+            font-weight: 200;
+        }
+
+        .it_footer{
+            margin-left: 4px;
+        
+    }   
 
 }
 
+}
