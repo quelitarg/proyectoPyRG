@@ -39,12 +39,12 @@ p{
 }
 
 h2 {
-    font-size: 1.8 rem;
+    font-size: large;
     color:var(--third-bis-color);
-}
+    
 
 .mis_contactos{
-    margin: 0px 7px;
+    margin: 0px 10px;
 }
 
 .videos{ 
@@ -52,8 +52,8 @@ h2 {
     flex-direction: column;
     justify-content:start;
     align-content: space-around;
-    max-width: 1300px;
-    margin:0px 7px;
+    /*max-width: 1300px;*/
+    margin:0px 10px;
 }
 #logo-whatssap{
     width: 20px;
