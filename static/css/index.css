@@ -444,7 +444,7 @@ p {
         justify-content: center;
         align-items: center;
         color:white;
-        font-weight: 300;
+        font-weight: 200;
         font-size: .6rem;
         
     }
@@ -489,8 +489,8 @@ p {
     @media screen and (min-width:300px){
         p {
             display:flex;
-            justify-content: end;
-            align-items: end;
+            flex-direction: column;
+            justify-content: space-around;
             color:white;
             font-weight: 200;
         }
