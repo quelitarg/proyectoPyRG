@@ -15,14 +15,14 @@ body {
 }
 
 .primer_texto{
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     color: var(--primary-color);
-    padding:10px;
+    padding:7px;
 }
     
 .segundo_texto{
     color: var( --primary-bis-color);
-    padding:10px;
+    padding:7px;
     margin-bottom:5px;
 }
  
