@@ -10,7 +10,7 @@ body{
 display:grid;
 grid-template-columns: repeat(2, 1fr);
 padding: 30px;
-margin-top: 70px;
+/*margin-top: 70px;*/
 max-width: 1300px;
 }
 
