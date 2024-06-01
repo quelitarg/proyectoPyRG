@@ -25,6 +25,11 @@ body{
     font-style: normal;
 }
 
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 a{
     text-decoration: none;
