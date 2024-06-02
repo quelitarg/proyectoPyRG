@@ -451,6 +451,16 @@ p {
         align-content: center;
         /*min-width: 300px;*/
         }
+
+    .item-bann-public{
+            display: flex;
+            /*width: 1fr;*/
+            width: 50vw;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        
+    }
 }
 
 
