@@ -442,7 +442,31 @@ p {
 
 /*Medias Querys*/
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
+    #grid-container-banns{
+        display: grid;
+        width: 100%;
+        background-color:var(--secondary-color);
+        grid-template-columns: auto;
+        flex-direction: column;
+        justify-content: center;
+        /*min-width: 300px;*/
+        }
+
+    .item-bann-public{
+            display: flex;
+            /*width: 1fr;*/
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 750px){
 
     #grid-container-banns{
         display: grid;
