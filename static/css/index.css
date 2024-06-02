@@ -528,7 +528,7 @@ p {
 
 }
 
-@media screen and (min-width:1300px){
+@media screen and (min-width:900px){
 
     .presentacion{
         display: flex;

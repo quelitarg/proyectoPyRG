@@ -16,7 +16,7 @@ body {
 }
 
 .primer_texto{
-    /*margin-top: 80px;*/
+    margin-top: 80px;
     color: var(--primary-color);
     padding:7px;
 }
