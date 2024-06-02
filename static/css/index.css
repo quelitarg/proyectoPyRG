@@ -448,7 +448,7 @@ p {
         grid-template-columns: repeat(2,1fr);
         flex-direction: column;
         align-content: center;
-        min-width: 300px;
+        /*min-width: 300px;*/
         }
 }
 
