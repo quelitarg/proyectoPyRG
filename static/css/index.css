@@ -444,6 +444,7 @@ p {
 
     #grid-container-banns{
         display: grid;
+        width: 100%;
         background-color:var(--secondary-color);
         grid-template-columns: repeat(2,1fr);
         flex-direction: column;
