@@ -442,15 +442,15 @@ p {
 
 /*Medias Querys*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500x){
     #grid-container-banns{
-        display: grid;
+        display: inline-block;
         width: 100%;
         background-color:var(--secondary-color);
-        grid-template-columns: auto;
         flex-direction: column;
         justify-content: center;
-        /*min-width: 300px;*/
+        /*grid-template-columns: auto;
+        min-width: 300px;*/
         }
 
     .item-bann-public{
@@ -491,7 +491,7 @@ p {
 
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 500px){
 
     
     p {
@@ -536,7 +536,7 @@ p {
 
 }
 
-@media screen and (max-width:290px){
+/*@media screen and (max-width:290px){
     p {
         display:flex;
         flex-direction: column;
@@ -548,9 +548,9 @@ p {
     .it_footer{
         margin-left: 4px;
     
-}   
+}  
 
-}
+}*/ 
 
 @media screen and (min-width:900px){
 
