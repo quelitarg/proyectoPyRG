@@ -495,12 +495,12 @@ p {
 @media screen and (max-width: 530px){
     #grid-container-banns{
         display: grid;
-        width: 100%;
+        max-width: 530px;
         background-color:var(--secondary-color);
-        grid-template-columns: auto;
-        grid-template-rows: repeat(9, auto);
+        grid-template-columns:auto;
+        grid-template-rows: repeat(9,auto);
         flex-direction: column;
-        align-items: center;
+        place-items: center;
         /*grid-template-columns: auto;
         justify-content: center;
         width: 100%;
@@ -511,7 +511,7 @@ p {
     .item-bann-public{
             display: flex;
             /*width: 1fr;*/
-           width: 100vw;
+           width: 100%;
             justify-content: center;
             align-items: center;
             cursor: pointer;
